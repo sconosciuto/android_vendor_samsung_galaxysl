@@ -15,37 +15,46 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/galaxysl/proprietary/ril/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/galaxysl/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/samsung/galaxysl/proprietary/ril/lib/libril.so:obj/lib/libril.so
 
 # All the blobs necessary for galaxysl
-
-# camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/galaxysl/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libarccamera.so:system/lib/libarccamera.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libarcplatform.so:system/lib/libarcplatform.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libarcsoft_bookmark.so:system/lib/libarcsoft_bookmark.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libarcsoft_subtitle.so:system/lib/libarcsoft_subtitle.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libbridge.so:system/lib/libbridge.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libCaMotion.so:system/lib/libCaMotion.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libjpeg.so:system/lib/libjpeg.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libLCML.so:system/lib/libLCML.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libseccamera.so:system/lib/libseccamera.so \
-    vendor/samsung/galaxysl/proprietary/camera/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so
 
 # firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/firmware/samsung_mfc_fw.bin:system/firmware/samsung_mfc_fw.bin
+
+# camera and tvout
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libActionShot.so:system/lib/libActionShot.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libcamera.so:system/lib/libsamsungcamera.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libcamerafirmwarejni.so:system/lib/libcamerafirmwarejni.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libCaMotion.so:system/lib/libCaMotion.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libPlusMe.so:system/lib/libPlusMe.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libpvr2d.so:system/lib/libpvr2d.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libseccamera.so:system/lib/libseccamera.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libtvout.so:system/lib/libtvout.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/galaxysl/proprietary/camera/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
+    vendor/samsung/galaxysl/proprietary/camera/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
+    vendor/samsung/galaxysl/proprietary/camera/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
+    vendor/samsung/galaxysl/proprietary/camera/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
+    vendor/samsung/galaxysl/proprietary/camera/firmware/CE147F03.bin:system/firmware/CE147F03.bin \
+    vendor/samsung/galaxysl/proprietary/camera/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/galaxysl/proprietary/camera/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/galaxysl/proprietary/camera/bin/tvoutserver:system/bin/tvoutserver
 
 # graphics
 PRODUCT_COPY_FILES += \
