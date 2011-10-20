@@ -146,3 +146,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/overlay.latona.so:system/lib/hw/overlay.latona.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
+# wifi
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_cu:system/bin/tiap_cu \
+    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_loader:system/bin/tiap_loader \
+    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_cu:system/bin/tiwlan_cu \
+    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_loader:system/bin/tiwlan_loader \
+    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_plts:system/bin/tiwlan_plts
+
