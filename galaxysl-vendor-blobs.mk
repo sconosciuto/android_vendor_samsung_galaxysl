@@ -154,3 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_loader:system/bin/tiwlan_loader \
     vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_plts:system/bin/tiwlan_plts
 
+# bluetooth
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:system/lib/firmware/TIInit_7.2.31.bts
+
