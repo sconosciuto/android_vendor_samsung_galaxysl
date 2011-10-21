@@ -158,3 +158,19 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:system/lib/firmware/TIInit_7.2.31.bts
 
+# audio
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libasound.so:system/lib/libasound.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libaudio.so:system/lib/libaudio.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libDVANS.so:system/lib/libDVANS.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/liblvvefs.so:system/lib/liblvvefs.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libsoundalive.so:system/lib/libsoundalive.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so
+
