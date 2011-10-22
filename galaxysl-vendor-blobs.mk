@@ -138,9 +138,7 @@ PRODUCT_COPY_FILES += \
 # sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/galaxysl/proprietary/sensors/bin/gpsd:system/bin/gpsd \
     vendor/samsung/galaxysl/proprietary/sensors/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/galaxysl/proprietary/sensors/lib/hw/gps.latona.so:system/lib/hw/gps.latona.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/lights.latona.so:system/lib/hw/lights.latona.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/overlay.latona.so:system/lib/hw/overlay.latona.so \
@@ -156,7 +154,7 @@ PRODUCT_COPY_FILES += \
 
 # bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:system/lib/firmware/TIInit_7.2.31.bts
+    vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:root/lib/firmware/TIInit_7.2.31.bts
 
 # audio
 PRODUCT_COPY_FILES += \
@@ -173,4 +171,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so
+
+# gps
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/gps/bin/8c7fccef.0:system/bin/8c7fccef.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/66ca3eb6.0:system/bin/66ca3eb6.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/803ca020.0:system/bin/803ca020.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/7651b327.0:system/bin/7651b327.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/c9dbfc2e.0:system/bin/c9dbfc2e.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/ddc328ff.0:system/bin/ddc328ff.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/ed62f4e3.0:system/bin/ed62f4e3.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/f0b6e66f.0:system/bin/f0b6e66f.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/galaxysl/proprietary/gps/lib/hw/gps.latona.so:system/lib/hw/gps.latona.so
 
