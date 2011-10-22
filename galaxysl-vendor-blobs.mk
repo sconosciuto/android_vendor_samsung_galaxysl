@@ -62,21 +62,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/lib/libIMGegl.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/lib/libpvr2d.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/lib_R2VS_ARM_GA_Library_for_Aries.so:system/lib/lib_R2VS_ARM_GA_Library_for_Aries.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/lib/libsrv_init.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/lib/libsrv_um.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/lib/libusc.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.latona.so:system/lib/hw/gralloc.latona.so
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.latona.so:system/vendor/lib/hw/gralloc.omap3.so
 
 # dsp
 PRODUCT_COPY_FILES += \
@@ -180,14 +180,14 @@ PRODUCT_COPY_FILES += \
 
 # gps
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/gps/bin/8c7fccef.0:system/bin/8c7fccef.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/66ca3eb6.0:system/bin/66ca3eb6.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/803ca020.0:system/bin/803ca020.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/7651b327.0:system/bin/7651b327.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/c9dbfc2e.0:system/bin/c9dbfc2e.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/ddc328ff.0:system/bin/ddc328ff.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/ed62f4e3.0:system/bin/ed62f4e3.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/f0b6e66f.0:system/bin/f0b6e66f.0 \
-    vendor/samsung/galaxysl/proprietary/gps/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/galaxysl/proprietary/gps/bin/8c7fccef.0:system/vendor/bin/8c7fccef.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/66ca3eb6.0:system/vendor/bin/66ca3eb6.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/803ca020.0:system/vendor/bin/803ca020.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/7651b327.0:system/vendor/bin/7651b327.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/c9dbfc2e.0:system/vendor/bin/c9dbfc2e.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/ddc328ff.0:system/vendor/bin/ddc328ff.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/ed62f4e3.0:system/vendor/bin/ed62f4e3.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/f0b6e66f.0:system/vendor/bin/f0b6e66f.0 \
+    vendor/samsung/galaxysl/proprietary/gps/bin/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxysl/proprietary/gps/lib/hw/gps.latona.so:system/lib/hw/gps.latona.so
 
