@@ -144,6 +144,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/overlay.latona.so:system/lib/hw/overlay.latona.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
+# vibrator
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/vibrator/bin/immvibed:system/bin/immvibed \
+    vendor/samsung/galaxysl/proprietary/vibrator/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so
+
 # wifi
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_cu:system/bin/tiap_cu \
