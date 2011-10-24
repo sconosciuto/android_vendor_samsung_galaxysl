@@ -159,6 +159,8 @@ PRODUCT_COPY_FILES += \
 
 # omx
 PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/omx/libarcplatform.so:system/lib/libarcplatform.so \
+    vendor/samsung/galaxysl/proprietary/omx/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
