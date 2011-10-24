@@ -157,3 +157,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/gps/bin/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxysl/proprietary/gps/lib/hw/gps.latona.so:system/lib/hw/gps.latona.so
 
+# omx
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.decoder.so:system/lib/libOMX.TI.JPEG.decoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.encoder.so:system/lib/libOMX.TI.JPEG.encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so
+
