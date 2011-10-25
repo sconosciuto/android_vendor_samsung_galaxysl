@@ -161,12 +161,23 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/omx/libarcplatform.so:system/lib/libarcplatform.so \
     vendor/samsung/galaxysl/proprietary/omx/libdivxdrm.so:system/lib/libdivxdrm.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AMR.encode.so:system/lib/libOMX.TI.AMR.encode.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.decoder.so:system/lib/libOMX.TI.JPEG.decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.encoder.so:system/lib/libOMX.TI.JPEG.encoder.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.MP3.decode.so:system/lib/libOMX.TI.MP3.decode.so \
     vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.VPP.so:system/lib/libOMX.TI.VPP.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WBAMR.decode.so:system/lib/libOMX.TI.WBAMR.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
+    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so
 
