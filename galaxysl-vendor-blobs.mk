@@ -185,6 +185,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/lpm/bin/charging_mode:system/bin/charging_mode \
     vendor/samsung/galaxysl/proprietary/lpm/bin/playlpm:system/bin/playlpm \
+    vendor/samsung/galaxysl/proprietary/lpm/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/samsung/galaxysl/proprietary/lpm/lib/libquramimagecodec.so:system/lib/libquramimagecodec.so \
+    vendor/samsung/galaxysl/proprietary/lpm/lib/libquramvdecoder.so:system/lib/libquramvdecoder.so \
     vendor/samsung/galaxysl/proprietary/lpm/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
     vendor/samsung/galaxysl/proprietary/lpm/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
     vendor/samsung/galaxysl/proprietary/lpm/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
