@@ -28,9 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvinit:system/bin/pvrsrvinit \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/lib_R2VS_ARM_GA_Library_for_Aries.so:system/lib/lib_R2VS_ARM_GA_Library_for_Aries.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
