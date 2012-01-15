@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 # dsp
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/baseimage/bin/cexec.out:system/bin/cexec.out \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/libbridge.so:system/lib/libbridge.so \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
