@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.latona.so:system/vendor/lib/hw/gralloc.omap3.so
+    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so
 
 # dsp
 PRODUCT_COPY_FILES += \
