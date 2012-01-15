@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 # graphics
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvinit:system/bin/pvrsrvinit \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/samsung/galaxysl/proprietary/graphics/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
@@ -106,7 +105,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxysl/proprietary/sensors/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/galaxysl/proprietary/sensors/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/samsung/galaxysl/proprietary/sensors/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 # vibrator
@@ -155,30 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/gps/bin/f0b6e66f.0:system/vendor/bin/f0b6e66f.0 \
     vendor/samsung/galaxysl/proprietary/gps/bin/gpsd:system/vendor/bin/gpsd \
     vendor/samsung/galaxysl/proprietary/gps/lib/hw/gps.latona.so:system/lib/hw/gps.latona.so
-
-# omx
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/omx/libarcplatform.so:system/lib/libarcplatform.so \
-    vendor/samsung/galaxysl/proprietary/omx/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.AMR.encode.so:system/lib/libOMX.TI.AMR.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.decoder.so:system/lib/libOMX.TI.JPEG.decoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.JPEG.encoder.so:system/lib/libOMX.TI.JPEG.encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.MP3.decode.so:system/lib/libOMX.TI.MP3.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.VPP.so:system/lib/libOMX.TI.VPP.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WBAMR.decode.so:system/lib/libOMX.TI.WBAMR.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so
 
 # lpm
 PRODUCT_COPY_FILES += \
