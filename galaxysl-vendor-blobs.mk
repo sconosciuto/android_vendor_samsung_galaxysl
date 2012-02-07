@@ -26,19 +26,19 @@ PRODUCT_COPY_FILES += \
 # graphics
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvinit:system/bin/pvrsrvinit \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/lib_R2VS_ARM_GA_Library_for_Aries.so:system/lib/lib_R2VS_ARM_GA_Library_for_Aries.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/vendor/lib/libusc.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so
+    vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvctl:system/bin/pvrsrvctl \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/lib/libIMGegl.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/lib/libpvr2d.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/lib/libsrv_init.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/lib/libsrv_um.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/lib/libusc.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so
 
 # dsp
 PRODUCT_COPY_FILES += \
