@@ -126,6 +126,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/audio/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/libaudio.so:system/lib/libaudio.so \
+    vendor/samsung/galaxysl/proprietary/audio/lib/libaudio.so:system/lib/liba2dp.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/libDVANS.so:system/lib/libDVANS.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/liblvvefs.so:system/lib/liblvvefs.so \
     vendor/samsung/galaxysl/proprietary/audio/lib/libsamsungAcousticeq.so:system/lib/libsamsungAcousticeq.so \
