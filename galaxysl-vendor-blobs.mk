@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AMR.encode.so:system/lib/libOMX.TI.AMR.encode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.MP3.decode.so:system/lib/libOMX.TI.MP3.decode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so \
