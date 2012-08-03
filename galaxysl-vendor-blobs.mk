@@ -101,7 +101,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WBAMR.decode.so:system/lib/libOMX.TI.WBAMR.decode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so \
+    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.h264.splt.Encoder.so.so:system/lib/libOMX.TI.h264.splt.Encoder.so.so \
+    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libPERF.so:system/lib/libPERF.so
+
 
 # keychars
 PRODUCT_COPY_FILES += \
