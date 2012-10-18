@@ -85,25 +85,10 @@ PRODUCT_COPY_FILES += \
 
 #omx
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libbridge.so:system/lib/libbridge.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libarcplatform.so:system/lib/libarcplatform.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libLCML.so:system/lib/libLCML.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.AMR.encode.so:system/lib/libOMX.TI.AMR.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.MP3.decode.so:system/lib/libOMX.TI.MP3.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WBAMR.decode.so:system/lib/libOMX.TI.WBAMR.decode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libPERF.so:system/lib/libPERF.so
+    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so 
 
 # keychars
 PRODUCT_COPY_FILES += \
