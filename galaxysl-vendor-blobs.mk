@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
     vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
-    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so 
+    vendor/samsung/galaxysl/proprietary/omx/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
+    vendor/samsung/galaxysl/proprietary/omx/lib/librotation.so:system/lib/librotation.so 
 
 # keychars
 PRODUCT_COPY_FILES += \
