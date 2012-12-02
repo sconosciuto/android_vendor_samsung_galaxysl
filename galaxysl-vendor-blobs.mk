@@ -105,6 +105,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/ril/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/galaxysl/proprietary/ril/lib/libsec-ril.so:system/lib/libsec-ril.so
 
+#modem
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/ril/modem/modem.bin:modem.bin \
+
 # sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
