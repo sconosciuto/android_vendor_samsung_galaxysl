@@ -28,18 +28,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvinit:system/bin/pvrsrvinit \
     vendor/samsung/galaxysl/proprietary/graphics/bin/pvrsrvctl:system/bin/pvrsrvctl \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/lib/libIMGegl.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/lib/libpvr2d.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/lib/libsrv_init.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/lib/libsrv_um.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/lib/libusc.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/samsung/galaxysl/proprietary/graphics/lib/hw/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so
 
 # dsp
 PRODUCT_COPY_FILES += \
@@ -98,6 +98,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/keychars/sec_key.kcm.bin:system/usr/keychars/sec_key.kcm.bin \
     vendor/samsung/galaxysl/proprietary/keychars/sec_touchscreen.kcm.bin:system/usr/keychars/sec_touchscreen.kcm.bin
 
+# Wifi firmware (modules are built from source)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
+
 # ril
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/ril/bin/rild:system/bin/rild \
@@ -113,15 +120,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxysl/proprietary/sensors/bin/orientationd:system/bin/orientationd
-
-# wifi
-PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_cu:system/bin/tiap_cu \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiap_loader:system/bin/tiap_loader \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_cu:system/bin/tiwlan_cu \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_loader:system/bin/tiwlan_loader \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/tiwlan_plts:system/bin/tiwlan_plts \
-    vendor/samsung/galaxysl/proprietary/wifi/bin/wpa_supplicant:system/bin/wpa_supplicant
 
 # bluetooth
 PRODUCT_COPY_FILES += \
