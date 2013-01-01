@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
 
 # bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:root/lib/firmware/TIInit_7.2.31.bts
+    vendor/samsung/galaxysl/proprietary/bluetooth/lib/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts
 
 # gps
 PRODUCT_COPY_FILES += \
