@@ -43,45 +43,57 @@ PRODUCT_COPY_FILES += \
 
 # dsp
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/baseimage.map:system/lib/dsp/baseimage.map \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/chromasuppress.l64p:system/lib/dsp/chromasuppress.l64p \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dctn_dyn.dll64P:system/lib/dsp/dctn_dyn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ddspbase_tiomap3430.dof64P:system/lib/dsp/ddspbase_tiomap3430.dof64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dfgm.dll64P:system/lib/dsp/dfgm.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dynbase_tiomap3430.dof64P:system/lib/dsp/dynbase_tiomap3430.dof64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/eenf_ti.l64P:system/lib/dsp/eenf_ti.l64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/h264venc_sn.dll64P:system/lib/dsp/h264venc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ipp_sn.dll64P:system/lib/dsp/ipp_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/jpegenc_sn.dll64P:system/lib/dsp/jpegenc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/m4venc_sn.dll64P:system/lib/dsp/m4venc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/monitor_tiomap3430.dof64P:system/lib/dsp/monitor_tiomap3430.dof64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp3dec_sn.dll64P:system/lib/dsp/mp3dec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp4v720parcdec_sn.dll64P:system/lib/dsp/mp4v720parcdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp4varcdec_sn.dll64P:system/lib/dsp/mp4varcdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp4vdec_sn.dll64P:system/lib/dsp/mp4vdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mpeg4aacdec_sn.dll64P:system/lib/dsp/mpeg4aacdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mpeg4aridec_sn.dll64P:system/lib/dsp/mpeg4aridec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/nbamrdec_sn.dll64P:system/lib/dsp/nbamrdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/nbamrenc_sn.dll64P:system/lib/dsp/nbamrenc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/postprocessor_dualout.dll64P:system/lib/dsp/postprocessor_dualout.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/qosdyn_3430.dll64P:system/lib/dsp/qosdyn_3430.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ringio.dll64P:system/lib/dsp/ringio.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/monitor_tiomap3430.dof64P:system/lib/dsp/monitor_tiomap3430.dof64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/star.l64P:system/lib/dsp/star.l64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/usn.dll64P:system/lib/dsp/usn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/m4venc_sn.dll64P:system/lib/dsp/m4venc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g729dec_sn.dll64P:system/lib/dsp/g729dec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/qosdyn_3430.dll64P:system/lib/dsp/qosdyn_3430.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_divx_mp4vdec_sn.dll64P:system/lib/dsp/720p_divx_mp4vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mpeg4aacdec_sn.dll64P:system/lib/dsp/mpeg4aacdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g722enc_sn.dll64P:system/lib/dsp/g722enc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dctn_dyn.dll64P:system/lib/dsp/dctn_dyn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dfgm.dll64P:system/lib/dsp/dfgm.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ilbcdec_sn.dll64P:system/lib/dsp/ilbcdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp3dec_sn.dll64P:system/lib/dsp/mp3dec_sn.dll64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wbamrdec_sn.dll64P:system/lib/dsp/wbamrdec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wbamrenc_sn.dll64P:system/lib/dsp/wbamrenc_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wmadec_sn.dll64P:system/lib/dsp/wmadec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g722dec_sn.dll64P:system/lib/dsp/g722dec_sn.dll64P \
     vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
-    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/yuvconvert.l64p:system/lib/dsp/yuvconvert.l64p
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g726enc_sn.dll64P:system/lib/dsp/g726enc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/jpegenc_sn.dll64P:system/lib/dsp/jpegenc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/yuvconvert.l64p:system/lib/dsp/yuvconvert.l64p \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/chromasuppress.l64p:system/lib/dsp/chromasuppress.l64p \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ddspbase_tiomap3430.dof64P:system/lib/dsp/ddspbase_tiomap3430.dof64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wbamrenc_sn.dll64P:system/lib/dsp/wbamrenc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/dynbase_tiomap3430.dof64P:system/lib/dsp/dynbase_tiomap3430.dof64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ringio.dll64P:system/lib/dsp/ringio.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g711enc_sn.dll64P:system/lib/dsp/g711enc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/h264venc_sn.dll64P:system/lib/dsp/h264venc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_wmv9vdec_sn.dll64P:system/lib/dsp/720p_wmv9vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/wmadec_sn.dll64P:system/lib/dsp/wmadec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/eenf_ti.l64P:system/lib/dsp/eenf_ti.l64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ipp_sn.dll64P:system/lib/dsp/ipp_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ittiam_divx3vdec_sn.dll64P:system/lib/dsp/ittiam_divx3vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g726dec_sn.dll64P:system/lib/dsp/g726dec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/sparkdec_sn.dll64P:system/lib/dsp/sparkdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/nbamrenc_sn.dll64P:system/lib/dsp/nbamrenc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/usn.dll64P:system/lib/dsp/usn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/baseimage.map:system/lib/dsp/baseimage.map \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/g711dec_sn.dll64P:system/lib/dsp/g711dec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/ilbcenc_sn.dll64P:system/lib/dsp/ilbcenc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mp4vdec_sn.dll64P:system/lib/dsp/mp4vdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/postprocessor_dualout.dll64P:system/lib/dsp/postprocessor_dualout.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
+    vendor/samsung/galaxysl/proprietary/baseimage/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P
 
 #omx
 PRODUCT_COPY_FILES += \
