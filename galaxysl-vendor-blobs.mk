@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/sensors/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxysl/proprietary/sensors/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/galaxysl/proprietary/sensors/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 # bluetooth
 PRODUCT_COPY_FILES += \
