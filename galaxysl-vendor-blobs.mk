@@ -117,7 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
     vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
     vendor/samsung/galaxysl/proprietary/wifi/firmware/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
-    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl1271-fw-multirole-plt.bin:system/etc/firmware/ti-connectivity/wl1271-fw-multirole-plt.bin \
+    vendor/samsung/galaxysl/proprietary/wifi/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/ti-connectivity/wl1271-fw-multirole-roc.bin
 
 # ril
 PRODUCT_COPY_FILES += \
