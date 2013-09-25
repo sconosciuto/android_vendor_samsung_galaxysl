@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES := \
 
 # Proprietary Blobs
 PRODUCT_COPY_FILES += \
- vendor/samsung/galaxysl/proprietary/firmware/samsung_mfc_fw.bin:system/firmware/samsung_mfc_fw.bin \
  vendor/samsung/galaxysl/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
  vendor/samsung/galaxysl/proprietary/bin/pvrsrvctl:system/bin/pvrsrvctl \
  vendor/samsung/galaxysl/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
